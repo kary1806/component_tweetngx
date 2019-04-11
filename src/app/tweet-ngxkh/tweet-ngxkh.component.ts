@@ -35,7 +35,7 @@ export class TweetNgxkhComponent implements OnInit {
                 //body: JSON.stringify(data), // data can be `string` or {object}!
                 headers:{
                     'Content-Type': "application/json",
-                    'Authorization': "OAuth oauth_consumer_key=\""+this.consumer_key+"\",oauth_token=\""+this.access_token+"\",oauth_signature_method=\"HMAC-SHA1\",oauth_timestamp=\"1554868978\",oauth_nonce=\"mUqIk3O3nat\",oauth_version=\"1.0\",oauth_signature=\"vyNE%2FFuIKQneT1pL1j%2Fj4dpX2fI%3D\"",
+                    'Authorization': "OAuth oauth_consumer_key=\""+this.consumer_key+"\",oauth_token=\""+this.access_token+"\",oauth_signature_method=\"HMAC-SHA1\",oauth_timestamp=\"1555020936\",oauth_nonce=\"Pi8Jmf9ypVT\",oauth_version=\"1.0\",oauth_signature=\"56z1lUWVTPnmpcveh0jmsDnurWw%3D\"",
                     'cache-control': "no-cache"
                     }
                 }).then(res => res.json().then(
