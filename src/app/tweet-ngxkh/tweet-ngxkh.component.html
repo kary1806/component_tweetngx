@@ -1,0 +1,34 @@
+<style>
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      transition: 0.3s;
+      width: 40%;
+    }
+    
+    .card:hover {
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+    
+    .container {
+      padding: 2px 16px;
+    }
+</style>
+<div class="col-md-12">
+
+               <div class="row" *ngFor="let item of listado">
+
+                   <div class="col-md-3" >
+                        <div class="card mt-4">
+                          <div class="container">
+                             <h3> Tweets </h3>
+                             <p>{{item.text}}</p> 
+                             <p>Fecha: <span >{{item.created_at}}</span></p> 
+                          </div>
+
+                        </div>
+                    </div>
+
+               </div>
+
+
+</div>
